@@ -1,1 +1,1 @@
-web java $JAVA_OPTS -jar target/shopservice.jar
+web java -Dserver.port=$PORT $JAVA_OPTS -jar target/shopservice.jar
