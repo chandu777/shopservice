@@ -4,7 +4,7 @@
 	<groupId>com.acsk.shop</groupId>
 	<artifactId>shopservice</artifactId>
 	<version>1.0</version>
-	 <packaging>war</packaging>
+	 <packaging>jar</packaging>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -12,15 +12,8 @@
 	</parent>
 	<properties>
 		<java.version>1.8</java.version>
-		<start-class>com.acsk.shop.MainApp</start-class>
 	</properties>
 	<dependencies>
-		<!-- marked the embedded servlet container as provided -->
-	<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-tomcat</artifactId>
-			<scope>provided</scope>
-		</dependency>
 		<!-- Hibernate ORM -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
