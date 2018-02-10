@@ -6,25 +6,11 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 
-/*@SpringBootApplication
+@SpringBootApplication
 @EntityScan(basePackages = "com.acsk.shop.model")
 public class MainApp{
 	
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(MainApp.class, args);
-	}
-}*/
-
-@SpringBootApplication
-@EntityScan(basePackages = "com.acsk.shop.model")
-public class MainApp extends SpringBootServletInitializer {
-	
-	public static void main(String[] args) throws Exception {
-		SpringApplication.run(MainApp.class, args);
-	}
-
-	@Override
-	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(MainApp.class);
 	}
 }
