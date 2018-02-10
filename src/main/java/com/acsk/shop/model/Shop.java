@@ -69,7 +69,7 @@ public class Shop implements Serializable {
 	private Epayment epayments;
 	//private List<Double> priceRange;
 	
-	@Column(name="aggregateRating", columnDefinition="Decimal(1,2) default '0.0'")
+	@Column(name="aggregateRating", columnDefinition="Decimal(10,2) default '100.00'")
 	private double aggregateRating;
 	
 	@OneToOne(cascade = CascadeType.ALL)
