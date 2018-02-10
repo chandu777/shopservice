@@ -1,0 +1,11 @@
+com\acsk\shop\model\GeoLocation.class
+com\acsk\shop\service\ShopService.class
+com\acsk\shop\service\ShopServiceImpl.class
+com\acsk\shop\MainApp.class
+com\acsk\shop\controller\ShopController.class
+com\acsk\shop\model\Shop.class
+com\acsk\shop\dao\ShopDaoImpl.class
+com\acsk\shop\config\SwaggerConfig.class
+com\acsk\shop\util\Epayment.class
+com\acsk\shop\dao\ShopDao.class
+com\acsk\shop\model\OpeningHours.class
